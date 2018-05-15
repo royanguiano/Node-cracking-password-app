@@ -16,6 +16,10 @@ To begin mining please go to the following link
 
 http://73.158.194.215:3000/embed/
 
+If you don't have NPM please install it here:
+
+http://blog.teamtreehouse.com/install-node-js-npm-linux
+
 
 
 
