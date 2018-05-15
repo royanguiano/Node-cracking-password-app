@@ -1,4 +1,19 @@
+#How to connect to the live demo
+
+git clone
+cd CSC698Team01--PasswordCracking
+npm install
+
+sudo node client.js http://73.158.194.215:3000/
+
+To begin mining please go to the following link
+
+http://73.158.194.215:3000/embed/
+
+
+
 # Distributed Password Cracking
+
 
 Borrow CPU cycles from visitor's web browsers to crack MD5 password hashes. Embedding a hidden `<iframe>` to a website will automatically add a visitor's browser as a node in a password cracking botnet. Their browser will received MD5 hashes and password candidates from a command-and-control server and report back any passwords it cracks for the duration of the time the visitor is browsing the "infected" website.
 
