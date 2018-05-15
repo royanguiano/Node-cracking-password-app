@@ -1,6 +1,7 @@
 #How to connect to the live demo
 
 //Commands Needed to run//
+
 git clone
 
 cd CSC698Team01--PasswordCracking
