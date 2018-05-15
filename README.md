@@ -12,6 +12,10 @@ sudo node client.js 73.158.194.215:3000
 
 //Commands Needed to run//
 
+To view your hashes and etc on the network put this into your web browser:
+
+http://73.158.194.215:3000/
+
 To begin mining please go to the following link
 
 http://73.158.194.215:3000/embed/
