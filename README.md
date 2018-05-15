@@ -1,14 +1,29 @@
 #How to connect to the live demo
 
+//Commands Needed to run//
 git clone
+
 cd CSC698Team01--PasswordCracking
+
 npm install
 
 sudo node client.js http://73.158.194.215:3000/
 
+//Commands Needed to run//
+
 To begin mining please go to the following link
 
 http://73.158.194.215:3000/embed/
+
+
+
+
+
+
+
+
+
+
 
 
 
