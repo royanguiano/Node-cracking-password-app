@@ -8,7 +8,7 @@ cd CSC698Team01--PasswordCracking
 
 npm install
 
-sudo node client.js 73.158.194.215:3000
+sudo node server.js 73.158.194.215:3000
 
 //Commands Needed to run//
 
