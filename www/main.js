@@ -38,6 +38,7 @@ const vm = new Vue({
 	}
 })
 
+
 const socket = io('/radmin')
 socket.on('nodes', nodes => {
 	nodes.forEach((node, i) => {
@@ -73,3 +74,4 @@ function updateNode(node) {
 		}
 	})
 }
+
