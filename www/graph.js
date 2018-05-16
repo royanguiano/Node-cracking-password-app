@@ -1,13 +1,13 @@
-const smoothie = new SmoothieChart({ 
-	grid:{ 
+const smoothie = new SmoothieChart({
+	grid:{
 		fillStyle : '#ffffff',
-		strokeStyle: "transparent",
-		borderVisible: false
+		strokeStyle: "visible",
+		borderVisible: true
 	},
 	labels:{
 		fillStyle:'#000000',
 		fontSize:17,
-		precision:0
+		precision:1
 	}
 })
 
@@ -22,6 +22,6 @@ setInterval(function() {
 
 // Add to SmoothieChart
 smoothie.addTimeSeries(line, {
-	lineWidth: 1.5,
-	strokeStyle: '#000000'
+	lineWidth: 2.5,
+	strokeStyle: 'red'
 });

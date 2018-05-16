@@ -5,7 +5,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Work+Sans|Work+Sans+Light" rel="stylesheet">
 	<style type="text/css">
 		html {
-			font-family: 'Work Sans';
+			font-family: 'Arial';
 			font-weight: 300;
 		}
 
@@ -14,19 +14,22 @@
 		}
 
 		th, td {
-			padding: 10px 30px;
-			border-bottom: 1px dashed grey;
+			padding: 10px 20px;
+			border-bottom: 1px solid grey;
 		}
 
 		table {
 			max-width: 1200px;
 			margin: 50px auto;
-			border: none;
+			border: bold
+			align="left",
+			float="left";
 		}
 
 		#graph {
 			display: block;
-			margin: 50px auto 0px auto;
+			margin: 70px auto 0px auto,
+			backgroundColor: black;
 
 		}
 
@@ -37,9 +40,9 @@
 	<script src="lib/vue.js"></script>
 </head>
 <body>
-	<div id="app">
+	<div id="app" style="position:absolute">
 		<canvas id="graph" width="500" height="300"></canvas>
-		<table cellspacing="0" cellpadding="0">
+		<table cellspacing="1" cellpadding="1" border="1|0" float="left" style="position:relative; margin-left:0" >
 			 <tr>
 			    <th>Progress</th>
 			    <th>Nodes</th>
@@ -54,13 +57,13 @@
 			 	<td>{{ parseInt(networkHashrate() / 1000) }} KH/s </td>
 			 </tr>
 		</table>
-		<table v-if="nodes.length > 0" cellspacing="0" cellpadding="0">
+		<table v-if="nodes.length > 0" cellspacing="1" cellpadding="1" border="1|0" float="left" style="position:relative" >
 			 <tr>
 			    <th>Node</th>
 			    <th>Hashes</th>
 			    <th>Hashrate</th>
 			    <th>Passwords</th>
-			    <th>User</th>
+			    <th>Browser/OS</th>
 			 </tr>
 			 <tr v-for="(node, index) in sortedNodes" v-bind:class="{ dead: !node.alive }">
 			 	<td>{{ node.orderAdded }}</td>
