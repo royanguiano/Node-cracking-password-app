@@ -9,7 +9,7 @@
     "watch": "watchify client/src/main.js -o client/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "brannon@brannondorsey.com",
+  "author": "#",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.4",
